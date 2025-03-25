@@ -15,3 +15,9 @@
 ## Jak se používá a k čemu slouží funkce `map()` nad polem (array)?
 
 ## Jaké jsou rozdíli mezi polem (array) a Map kolekcí?
+
+- Array je skupina věcí a map je kolekce, ve které můžete přidat novou hodnotu a rovnou kní přidat další. např. pizzaMenu.set("Pepperoni", 250);
+
+název pizzy: pepperoni
+
+cena: 250

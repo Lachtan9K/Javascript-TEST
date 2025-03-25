@@ -10,7 +10,7 @@
 
 ## Kde se používá klíčové slovo `const`?
 
-- const se používá pro vytvoření proměnné, kterou není potřeba měnit, jelikož je to konstanta. Např. číslo pí
+- const se používá pro vytvoření proměnné, kterou není potřeba měnit, jelikož je to konstanta. Např. číslo pí (je přímo daná)
 
 ## Jak se používá a k čemu slouží funkce `map()` nad polem (array)?
 

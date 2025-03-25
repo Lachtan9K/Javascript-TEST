@@ -18,7 +18,7 @@ function factorial(factorialNumber) {}
 // oblast volání funkcí
 
 // 1)
-const result1 = capitalizeWord("My Cat Is Yellow?", 3);
+const result1 = lowercaseWord("My Cat Is Yellow?", 3);
 console.log(result1);
 
 // 2)

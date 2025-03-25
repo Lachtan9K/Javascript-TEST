@@ -14,7 +14,7 @@
 
 ## Jak se používá a k čemu slouží funkce `map()` nad polem (array)?
 
-- map() metoda, slouží k vytvoření nové arraye na bázy výsledků předešlé volané funkce, doplní na každý prvek pole nový výsledek.
+- map() metoda, slouží k vytvoření nové arraye na bázy výsledků předešlé volané funkce, doplní na každý prvek arraye nový výsledek.
 
   př.
   

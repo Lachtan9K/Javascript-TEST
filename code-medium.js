@@ -4,8 +4,7 @@
 // například pro "My Cat Is Yellow?" a 3 bude výsledek "is"
 function lowercaseWord(stringInput, wordIndex) {
  const words = stringInput.split(' ');
-
-  return words[wordIndex-1].toLowerCase();
+ return words[wordIndex-1].toLowerCase();
 }
 
 // 2) Funkce co přijme testScore, a vrátí odpovídající známku podle následující tabulky:
@@ -17,7 +16,14 @@ function transformScoreToGrade(testScore) {}
 // nevalidní vstupem je záporné číslo, nebo nečíslo, v takovém případě funkce vrátí undefined
 // faktoriál je součin všech kladných celých čísel menších nebo rovných zadanému číslu; pozor faktoriál čísla 0 je 1
 // například pro 5 bude výsledek 120; vzorec: 5! = 5 * 4 * 3 * 2 * 1 = 120
-function factorial(factorialNumber) {}
+function factorial(factorialNumber) {
+ let result = 1;
+ 
+ for (let i = 1; i <= factorialNumber; i++) {
+    result *= i; 
+  }
+ return result;
+}
 
 // oblast volání funkcí
 

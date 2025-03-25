@@ -16,7 +16,9 @@
 
 - map() metoda, slouží k vytvoření nové arraye na bázy výsledků volané funkce, doplní na každý prvek pole.
 
-  př. const array0 = [1, 6, 7];
+  př.
+  
+      const array0 = [1, 6, 7];
 
       const map0 = array0.map((x) => x * 2);
 

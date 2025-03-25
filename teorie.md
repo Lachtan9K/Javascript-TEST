@@ -2,6 +2,8 @@
 
 ## Jaké jsou datové typy v Javascriptu?
 
+- number, string, boolean, undefined, object, null 
+
 ## Jaký je rozdíl v porovnání pomocí `!=` a `!==`?
 
 ## Kde se používá klíčové slovo `const`?

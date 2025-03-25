@@ -2,7 +2,11 @@
 
 // 1) Funkce co vrací string, který odpovídá slovu (jsou oddělena mezerou) ze stringInput na pozici dané wordIndex (od 1), pokud index není vyplněn pracuje se s prvním slovem, vrácené slovo bude pouze malými písmeny, pokud slovo na dané pozici neexistuje, vrátí se prázdný string
 // například pro "My Cat Is Yellow?" a 3 bude výsledek "is"
-function lowercaseWord(stringInput, wordIndex) {}
+function lowercaseWord(stringInput, wordIndex) {
+ const words = stringInput.split(' ');
+
+  return words[wordIndex-1].toLowerCase();
+}
 
 // 2) Funkce co přijme testScore, a vrátí odpovídající známku podle následující tabulky:
 // 0-64 -> F, 65-78 -> E, 79-86 -> D, 87-92 -> C, 93-98 -> B, 99-100 -> A, pokud je testScore mimo rozsah 0-100, nebo nevalidní hodnota funkce vrátí "INVALID SCORE"
